@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="icon" href="https://www.w3schools.com/favicon.ico" type="image/png" sizes="64x64">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>SimpleX</title>
+
+</head>
+
+<body>
+   <div class="page">
+      <div class="container container--login">
+         <div class="inner">
+            <div class="inner__nav">
+               <div class="inner__logo"><span class="logo">SimpleX</span>
+                  <div class="bell"><img src="img/icons/bell.svg" alt="" width="23"> <img class="note"
+                        src="img/icons/circle4.svg" width="12" alt="">
+                  </div>
+               </div>
+               <div class="inner__string"><input type="search" class="search"><img class="lupa" src="img/icons/lupa.svg"
+                     alt="" width="25"></div>
+               <div class="inner__navigation">
+                  <div class="nav__item"><a class="nav__links" href="index.html">Dashboard</a></div>
+                  <div class="nav__item"><a class="nav__links" href="products.html">Products</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Users</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Category</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Brands</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Orders</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Suppliers</a></div>
+                  <div class="nav__item"><a class="nav__links" href="#">Promotions</a></div>
+               </div>
+               <div class="nav__footer">
+                  <a href="#" target="_blank"><img src="img/icons/settings.svg" width="25" alt=""></a>
+                  <a href="#"><img src="img/icons/profile.svg" width="30" alt=""></a>
+               </div>
+            </div>
+            <div class="inner__block">
+               <div class="block__name">Manage your account</div>
+               <div class="block__settings">
+                  <div class="settings__items">
+                     <div class="settings__personal">
+                        <div class="settings__topic">Personal info</div>
+                        <div class="settings__item">
+                           <div class="item__name">Profile picture</div>
+                           <div class="item__inner">
+                              <a class="roja__pic" href="#"><img class="roja js-open-modal" data-modal="1"
+                                    src="img/roja.jpg" alt=""></a>
+                           </div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Name</div>
+                           <div class="item__inner"><input type="text" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item item--start">
+                           <div class="item__name">Personal ID</div>
+                           <div class="item__inner"><input type="text" class="settings__input">
+                              <time datetime="2024-01-12 18:00" class="item__expire">Expire date - 01/12/2024</time>
+                           </div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Position</div>
+                           <div class="item__inner"><input type="text" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Email</div>
+                           <div class="item__inner"><input type="email" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Phone</div>
+                           <div class="item__inner"><input type="tel" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item  item--start">
+                           <div class="item__name">Adress</div>
+                           <div class="item__inner"><textarea type="text"
+                                 class="settings__input input__adress"></textarea>
+
+                           </div>
+                           <div class="edit">Edit</div>
+                        </div>
+                     </div>
+                     <div class="settings__security">
+                        <div class="settings__topic">Security</div>
+                        <div class="settings__item">
+                           <div class="item__name">Password</div>
+                           <div class="item__inner"><input type="password" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Devices</div>
+                           <div class="item__inner"><input type="text" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Recovery email</div>
+                           <div class="item__inner"><input type="email" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                        <div class="settings__item">
+                           <div class="item__name">Recovery phone</div>
+                           <div class="item__inner"><input type="tel" class="settings__input"></div>
+                           <div class="edit">Edit</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="settings__items settings__task">
+                     <div class="settings__container">
+                        <div class="settings__topic">Assigned tasks</div>
+                        <div class="tasks__items">
+                           <div class="tasks__item" data-input="1">
+                              <div class="tasks__iteminner">
+                                 <input type="checkbox" class="task-checkbox" data-input="1" id="tasks-1" name="tasks" value="yes">
+                                 <label for="tasks-1" class="task__info">
+                                    <div class="task__infos">
+                                       <div class="task__text">200 records update for coffe suppliers from Kalaw</div>
+                                       <time datetime="2021-09-20 10:00" class="task__time">20 Sept, 2021 -
+                                          10:00am</time>
+                                    </div>
+                                 </label>
+                                 <div class="task__dots"><img class="dots__set" src="img/icons/dots.svg" width="20px"
+                                       alt=""></div>
+                              </div>
+                           </div>
+                           <div class="tasks__item" data-input="2">
+                              <div class="tasks__iteminner">
+                                 <input type="checkbox" class="task-checkbox" data-input="2" id="tasks-2" name="tasks" value="yes">
+                                 <label for="tasks-2" class="task__info">
+                                    <div class="task__infos">
+                                       <div class="task__text">Agents module CRM registration</div>
+                                       <time datetime="2021-09-20 10:00" class="task__time">20 Sept, 2021 -
+                                          10:00am</time>
+                                    </div>
+                                 </label>
+                                 <div class="task__dots"><img class="dots__set" src="img/icons/dots.svg" width="20px"
+                                       alt=""></div>
+                              </div>
+                           </div>
+                           <div class="tasks__item" data-input="3">
+                              <div class="tasks__iteminner">
+                                 <input type="checkbox" class="task-checkbox" data-input="3" id="tasks-3" name="tasks" value="yes">
+                                 <label for="tasks-3" class="task__info">
+                                    <div class="task__infos">
+                                       <div class="task__text">Meeting with Dell Inc for office PC setup</div>
+                                       <time datetime="2021-09-20 10:00" class="task__time">20 Sept, 2021 -
+                                          10:00am</time>
+                                    </div>
+                                 </label>
+                                 <div class="task__dots"><img class="dots__set" src="img/icons/dots.svg" width="20px"
+                                       alt=""></div>
+                              </div>
+                           </div>
+                           <div class="tasks__item" data-input="4">
+                              <div class="tasks__iteminner">
+                                 <input type="checkbox" class="task-checkbox" data-input="4" id="tasks-4" name="tasks" value="yes">
+                                 <label for="tasks-4" class="task__info">
+                                    <div class="task__infos">
+                                       <div class="task__text">Meeting with SONY for Alpha Launch 2022 festival</div>
+                                       <time datetime="2021-09-20 10:00" class="task__time">20 Sept, 2021 -
+                                          10:00am</time>
+                                    </div>
+                                 </label>
+                                 <div class="task__dots"><img class="dots__set" src="img/icons/dots.svg" width="20px"
+                                       alt=""></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="view">
+                           <button class="btn btn--task">View all</button>
+                        </div>
+                     </div>
+                     <div class="settings__container settings__bot">
+                        <div class="sale__top">
+                           <div class="sale__text">Yearly KPI perfomance</div>
+                           <div class="sale__accrodion">
+                              <div class="accordion__title">Previous week</div>
+                              <div class="accordion__times sale">
+                                 <div class="accordion__time">2 weeks ago</div>
+                                 <div class="accordion__time">3 weeks ago</div>
+                                 <div class="accordion__time">Month ago</div>
+                              </div>
+                           </div>
+                        </div>
+                        <img class="image" src="img/image.jpg" alt="">
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal" id="modal" data-modal="1"> 
+   </div>
+   <div class="modal__content">
+      <div class="add__img">
+         <img src="img/icons/photo.svg" width="200" alt="">
+      </div>
+      <button class="modal__save">Save</button>
+      <button class="modal__close">
+         <img src="img/icons/cross.svg" width="30" alt="">
+      </button>
+   </div>
+   <script src="js/accordion.js"></script>
+   <script src="js/modal.js"></script>
+   <script src="js/tasks.js"></script>
+</body>
+</html>
